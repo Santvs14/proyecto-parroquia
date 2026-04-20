@@ -1,0 +1,33 @@
+/* Mostrar submenu al hacer hover */
+.dropdown:hover .submenu {
+  display: block;
+}
+
+/* Animación suave */
+.submenu {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+/* Cuando aparece */
+.dropdown:hover .submenu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Estilo items */
+.submenu li {
+  padding: 8px 10px;
+  transition: background 0.2s;
+}
+
+/* Hover interno */
+.submenu li:hover {
+  background: #f1f1f1;
+}
+
+/* Opcional: que no se corte */
+.dropdown {
+  position: relative;
+}
