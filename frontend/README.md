@@ -1,16 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 📌 README 2 — Proyecto Parroquia (Fullstack)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```markdown
+# ⛪ Proyecto Parroquia
 
-## React Compiler
+Sistema web completo para gestión parroquial con arquitectura Fullstack (Frontend + Backend).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Frontend
+- ⚛️ React
+- 🎨 CSS / Tailwind
+
+### 🔹 Backend
+- 🐍 Python
+- 🌐 Fast API
+
+### 🔹 Base de datos y almacenamiento
+- 🗄️ Supabase
+- 🖼️ Supabase Storage (Multimedia)
+
+### 🔹 Entorno
+- 🟢 Node.js
+
+---
+
+## 📦 Instalación y ejecución
+- uvicorn main:app --reload (Backend)
+- npm run dev (Frontend)
+###  Instalar dependencias
+ - npm install
+---
+ ## 👨‍💻 Desarrollado por:
+
+ - Ing. VasquezS 🚀
